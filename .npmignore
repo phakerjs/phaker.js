@@ -1,8 +1,8 @@
 .npm/
 build/*
 build/build/*
-!build/build/faker.js
-!build/build/faker.min.js
+!build/build/phaker.js
+!build/build/phaker.min.js
 doc/
 examples/
 meteor/

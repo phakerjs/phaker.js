@@ -1,3 +1,9 @@
+phakerjs - Copyright (c) 2022
+Kam Lasater
+https://github.com/phakerjs/phakerjs/
+
+A derivative work of:
+
 faker.js - Copyright (c) 2020
 Marak Squires
 http://github.com/marak/faker.js/

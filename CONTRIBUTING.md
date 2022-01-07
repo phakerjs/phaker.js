@@ -1,6 +1,6 @@
-A lot of effort has been put into `faker.js` to create a useful and handy
+A lot of effort has been put into `phakerjs` to create a useful and handy
 library. There are still a lot of things to be done, so all contributions are
-welcome! If you can make `faker.js` better, please read the following contribution guide.
+welcome! If you can make `phakerjs` better, please read the following contribution guide.
 
 # Important
 
@@ -8,7 +8,7 @@ welcome! If you can make `faker.js` better, please read the following contributi
 
 ## Support
 
-`faker.js` relies on [commonJS](http://www.commonjs.org/) standard and supports both node.js and the
+`phakerjs` relies on [commonJS](http://www.commonjs.org/) standard and supports both node.js and the
 browsers. Keep this in mind, when modifying and/or extending the sources.
 
 ## Automation

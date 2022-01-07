@@ -1,7 +1,10 @@
 # CHANGELOG
 
 See commit history on Github for change history
-http://github.com/marak/faker.js
+https://github.com/phakerjs/phakerjs
+
+## 2022-01-04
+Primary repo deleted. http://github.com/marak/faker.js
 
 ## v4.0.0
 
