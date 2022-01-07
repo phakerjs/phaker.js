@@ -27,6 +27,10 @@ A drop in replacement to faker.js say hello to **phakerjs**
 
 ## API
 
+### JSDoc API Browser
+
+[http://phakerjs.github.io/phaker.js/](http://phakerjs.github.io/phaker.js/)
+
 ### API Methods
 
 * address
