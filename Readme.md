@@ -1,5 +1,7 @@
 # phakerjs - generate massive amounts of fake data in the browser and node.js
 
+![phaker.js logo](/logo.png)
+
 A drop in replacement to faker.js say hello to **phakerjs**
 
 ## Usage
