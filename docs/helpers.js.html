@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>helpers.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Namespaces</li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.html">faker</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.html#.fake">fake</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.html#.fake">fake</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.address.html">address</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.cardinalDirection">cardinalDirection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.cardinalDirection">cardinalDirection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.city">city</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.city">city</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.cityPrefix">cityPrefix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.cityPrefix">cityPrefix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.citySuffix">citySuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.citySuffix">citySuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.country">country</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.country">country</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.countryCode">countryCode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.countryCode">countryCode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.county">county</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.county">county</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.direction">direction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.direction">direction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.latitude">latitude</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.latitude">latitude</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.longitude">longitude</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.longitude">longitude</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.ordinalDirection">ordinalDirection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.ordinalDirection">ordinalDirection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.secondaryAddress">secondaryAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.secondaryAddress">secondaryAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.state">state</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.state">state</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.stateAbbr">stateAbbr</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.stateAbbr">stateAbbr</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetAddress">streetAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetAddress">streetAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetName">streetName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetName">streetName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetPrefix">streetPrefix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetPrefix">streetPrefix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetSuffix">streetSuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.streetSuffix">streetSuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.timeZone">timeZone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.timeZone">timeZone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.zipCode">zipCode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.zipCode">zipCode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.zipCodeByState">zipCodeByState</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.address.html#.zipCodeByState">zipCodeByState</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.commerce.html">commerce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.color">color</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.color">color</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.department">department</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.department">department</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.price">price</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.price">price</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.product">product</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.product">product</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productAdjective">productAdjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productAdjective">productAdjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productDescription">productDescription</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productDescription">productDescription</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productMaterial">productMaterial</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productMaterial">productMaterial</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productName">productName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.commerce.html#.productName">productName</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.company.html">company</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bs">bs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bs">bs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bsAdjective">bsAdjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bsAdjective">bsAdjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bsBuzz">bsBuzz</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bsBuzz">bsBuzz</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bsNoun">bsNoun</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.bsNoun">bsNoun</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhrase">catchPhrase</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhrase">catchPhrase</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhraseAdjective">catchPhraseAdjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhraseAdjective">catchPhraseAdjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhraseDescriptor">catchPhraseDescriptor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhraseDescriptor">catchPhraseDescriptor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhraseNoun">catchPhraseNoun</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.catchPhraseNoun">catchPhraseNoun</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.companyName">companyName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.companyName">companyName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.companySuffix">companySuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.companySuffix">companySuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.suffixes">suffixes</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.company.html#.suffixes">suffixes</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.database.html">database</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.collation">collation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.collation">collation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.column">column</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.column">column</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.engine">engine</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.engine">engine</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.type">type</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.database.html#.type">type</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.date.html">date</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.between">between</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.between">between</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.future">future</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.future">future</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.month">month</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.month">month</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.past">past</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.past">past</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.recent">recent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.recent">recent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.soon">soon</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.soon">soon</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.weekday">weekday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.date.html#.weekday">weekday</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.finance.html">finance</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.account">account</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.account">account</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.accountName">accountName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.accountName">accountName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.amount">amount</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.amount">amount</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.bic">bic</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.bic">bic</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.bitcoinAddress">bitcoinAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.bitcoinAddress">bitcoinAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.creditCardCVV">creditCardCVV</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.creditCardCVV">creditCardCVV</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.creditCardNumber">creditCardNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.creditCardNumber">creditCardNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.currencyCode">currencyCode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.currencyCode">currencyCode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.currencyName">currencyName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.currencyName">currencyName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.currencySymbol">currencySymbol</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.currencySymbol">currencySymbol</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.ethereumAddress">ethereumAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.ethereumAddress">ethereumAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.iban">iban</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.iban">iban</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.litecoinAddress">litecoinAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.litecoinAddress">litecoinAddress</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.mask">mask</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.mask">mask</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.routingNumber">routingNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.routingNumber">routingNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.transactionDescription">transactionDescription</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.transactionDescription">transactionDescription</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.transactionType">transactionType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.finance.html#.transactionType">transactionType</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.git.html">git</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.branch">branch</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.branch">branch</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.commitEntry">commitEntry</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.commitEntry">commitEntry</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.commitMessage">commitMessage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.commitMessage">commitMessage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.commitSha">commitSha</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.commitSha">commitSha</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.shortSha">shortSha</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.git.html#.shortSha">shortSha</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.hacker.html">hacker</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.abbreviation">abbreviation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.abbreviation">abbreviation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.adjective">adjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.adjective">adjective</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.ingverb">ingverb</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.ingverb">ingverb</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.noun">noun</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.noun">noun</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.phrase">phrase</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.phrase">phrase</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.verb">verb</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.hacker.html#.verb">verb</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.helpers.html">helpers</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.contextualCard">contextualCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.contextualCard">contextualCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.createCard">createCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.createCard">createCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.createTransaction">createTransaction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.createTransaction">createTransaction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.mustache">mustache</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.mustache">mustache</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.randomize">randomize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.randomize">randomize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.regexpStyleStringParse">regexpStyleStringParse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.regexpStyleStringParse">regexpStyleStringParse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.repeatString">repeatString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.repeatString">repeatString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.replaceCreditCardSymbols">replaceCreditCardSymbols</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.replaceCreditCardSymbols">replaceCreditCardSymbols</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.replaceSymbols">replaceSymbols</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.replaceSymbols">replaceSymbols</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.replaceSymbolWithNumber">replaceSymbolWithNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.replaceSymbolWithNumber">replaceSymbolWithNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.shuffle">shuffle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.shuffle">shuffle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.slugify">slugify</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.slugify">slugify</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.userCard">userCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.helpers.html#.userCard">userCard</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.image.html">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.abstract">abstract</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.abstract">abstract</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.animals">animals</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.animals">animals</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.business">business</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.business">business</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.cats">cats</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.cats">cats</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.city">city</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.city">city</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.dataUri">dataUri</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.dataUri">dataUri</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.fashion">fashion</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.fashion">fashion</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.food">food</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.food">food</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.imageUrl">imageUrl</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.imageUrl">imageUrl</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.nature">nature</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.nature">nature</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.nightlife">nightlife</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.nightlife">nightlife</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.people">people</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.people">people</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.sports">sports</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.sports">sports</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.technics">technics</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.technics">technics</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.transport">transport</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.html#.transport">transport</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html">lorempicsum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageBlurred">imageBlurred</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageBlurred">imageBlurred</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageGrayscaled">imageGrayscaled</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageGrayscaled">imageGrayscaled</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageRandomSeeded">imageRandomSeeded</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageRandomSeeded">imageRandomSeeded</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageUrl">imageUrl</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempicsum.html#.imageUrl">imageUrl</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.image.lorempixel.html">lorempixel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.abstract">abstract</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.abstract">abstract</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.animals">animals</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.animals">animals</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.business">business</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.business">business</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.cats">cats</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.cats">cats</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.city">city</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.city">city</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.fashion">fashion</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.fashion">fashion</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.food">food</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.food">food</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.imageUrl">imageUrl</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.imageUrl">imageUrl</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.nature">nature</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.nature">nature</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.nightlife">nightlife</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.nightlife">nightlife</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.people">people</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.people">people</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.sports">sports</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.sports">sports</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.technics">technics</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.technics">technics</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.transport">transport</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.lorempixel.html#.transport">transport</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.image.unsplash.html">unsplash</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.buildings">buildings</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.buildings">buildings</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.food">food</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.food">food</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.imageUrl">imageUrl</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.imageUrl">imageUrl</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.nature">nature</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.nature">nature</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.objects">objects</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.objects">objects</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.people">people</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.people">people</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.technology">technology</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.image.unsplash.html#.technology">technology</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.internet.html">internet</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.avatar">avatar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.color">color</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.color">color</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.domainName">domainName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.domainName">domainName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.domainSuffix">domainSuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.domainSuffix">domainSuffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.domainWord">domainWord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.domainWord">domainWord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.email">email</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.email">email</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.exampleEmail">exampleEmail</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.exampleEmail">exampleEmail</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.ip">ip</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.ip">ip</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.ipv6">ipv6</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.ipv6">ipv6</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.mac">mac</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.mac">mac</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.password">password</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.password">password</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.protocol">protocol</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.protocol">protocol</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.url">url</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.url">url</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.userAgent">userAgent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.userAgent">userAgent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.userName">userName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.internet.html#.userName">userName</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.lorem.html">lorem</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.lines">lines</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.lines">lines</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.paragraph">paragraph</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.paragraph">paragraph</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.paragraphs">paragraphs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.paragraphs">paragraphs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.sentence">sentence</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.sentence">sentence</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.sentences">sentences</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.sentences">sentences</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.slug">slug</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.slug">slug</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.text">text</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.text">text</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.word">word</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.word">word</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.words">words</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.lorem.html#.words">words</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.music.html">music</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.music.html#.genre">genre</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.music.html#.genre">genre</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.name.html">name</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.findName">findName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.findName">findName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.firstName">firstName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.firstName">firstName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.gender">gender</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.gender">gender</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobArea">jobArea</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobArea">jobArea</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobDescriptor">jobDescriptor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobDescriptor">jobDescriptor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobTitle">jobTitle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobTitle">jobTitle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobType">jobType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.jobType">jobType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.lastName">lastName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.lastName">lastName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.middleName">middleName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.middleName">middleName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.prefix">prefix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.prefix">prefix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.suffix">suffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.suffix">suffix</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.title">title</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.name.html#.title">title</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.phone.html">phone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.phone.html#.phoneFormats">phoneFormats</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.phone.html#.phoneFormats">phoneFormats</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.phone.html#.phoneFormatsArrayIndex">phoneFormatsArrayIndex</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.phone.html#.phoneFormatsArrayIndex">phoneFormatsArrayIndex</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.phone.html#.phoneNumber">phoneNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.phone.html#.phoneNumber">phoneNumber</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.random.html">random</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.alpha">alpha</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.alpha">alpha</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.alphaNumeric">alphaNumeric</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.alphaNumeric">alphaNumeric</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.arrayElement">arrayElement</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.arrayElement">arrayElement</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.arrayElements">arrayElements</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.arrayElements">arrayElements</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.boolean">boolean</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.boolean">boolean</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.float">float</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.float">float</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.hexaDecimal">hexaDecimal</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.hexaDecimal">hexaDecimal</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.image">image</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.locale">locale</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.locale">locale</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.number">number</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.number">number</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.objectElement">objectElement</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.objectElement">objectElement</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.uuid">uuid</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.uuid">uuid</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.word">word</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.word">word</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.words">words</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.random.html#.words">words</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.system.html">system</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.commonFileExt">commonFileExt</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.commonFileExt">commonFileExt</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.commonFileName">commonFileName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.commonFileName">commonFileName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.commonFileType">commonFileType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.commonFileType">commonFileType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.directoryPath">directoryPath</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.directoryPath">directoryPath</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.fileExt">fileExt</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.fileExt">fileExt</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.fileName">fileName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.fileName">fileName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.filePath">filePath</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.filePath">filePath</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.fileType">fileType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.fileType">fileType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.mimeType">mimeType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.mimeType">mimeType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.semver">semver</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.system.html#.semver">semver</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.time.html">time</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.time.html#.recent">recent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.time.html#.recent">recent</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.unique.html">unique</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="faker.vehicle.html">vehicle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.color">color</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.color">color</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.fuel">fuel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.fuel">fuel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.manufacturer">manufacturer</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.manufacturer">manufacturer</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.model">model</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.model">model</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.type">type</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.type">type</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.vehicle">vehicle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.vehicle">vehicle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.vin">vin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="faker.vehicle.html#.vin">vin</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#unique">unique</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">helpers.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ *
+ * @namespace faker.helpers
+ */
+var Helpers = function (faker) {
+
+  var self = this;
+
+  /**
+   * backward-compatibility
+   *
+   * @method faker.helpers.randomize
+   * @param {array} array
+   */
+  self.randomize = function (array) {
+      array = array || ["a", "b", "c"];
+      return faker.random.arrayElement(array);
+  };
+
+  /**
+   * slugifies string
+   *
+   * @method faker.helpers.slugify
+   * @param {string} string
+   */
+  self.slugify = function (string) {
+      string = string || "";
+      return string.replace(/ /g, '-').replace(/[^\w\.\-]+/g, '');
+  };
+
+  /**
+   * parses string for a symbol and replace it with a random number from 1-10
+   *
+   * @method faker.helpers.replaceSymbolWithNumber
+   * @param {string} string
+   * @param {string} symbol defaults to `"#"`
+   */
+  self.replaceSymbolWithNumber = function (string, symbol) {
+      string = string || "";
+      // default symbol is '#'
+      if (symbol === undefined) {
+          symbol = '#';
+      }
+
+      var str = '';
+      for (var i = 0; i &lt; string.length; i++) {
+          if (string.charAt(i) == symbol) {
+              str += faker.random.number(9);
+          } else if (string.charAt(i) == "!"){
+              str += faker.random.number({min: 2, max: 9});
+          } else {
+              str += string.charAt(i);
+          }
+      }
+      return str;
+  };
+
+  /**
+   * parses string for symbols (numbers or letters) and replaces them appropriately (# will be replaced with number,
+   * ? with letter and * will be replaced with number or letter)
+   *
+   * @method faker.helpers.replaceSymbols
+   * @param {string} string
+   */
+  self.replaceSymbols = function (string) {
+      string = string || "";
+      var alpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+      var str = '';
+
+      for (var i = 0; i &lt; string.length; i++) {
+          if (string.charAt(i) == "#") {
+              str += faker.random.number(9);
+          } else if (string.charAt(i) == "?") {
+              str += faker.random.arrayElement(alpha);
+          } else if (string.charAt(i) == "*") {
+            str += faker.random.boolean() ? faker.random.arrayElement(alpha) : faker.random.number(9);
+          } else {
+              str += string.charAt(i);
+          }
+      }
+      return str;
+  };
+
+  /**
+   * replace symbols in a credit card schems including Luhn checksum
+   *
+   * @method faker.helpers.replaceCreditCardSymbols
+   * @param {string} string
+   * @param {string} symbol
+   */
+
+   self.replaceCreditCardSymbols = function(string, symbol) {
+
+     // default values required for calling method without arguments
+     string = string || "6453-####-####-####-###L";
+     symbol = symbol || "#";
+
+     // Function calculating the Luhn checksum of a number string
+     var getCheckBit = function(number) {
+       number.reverse();
+       number = number.map(function(num, index){
+         if (index%2 === 0) {
+           num *= 2;
+           if(num>9) {
+             num -= 9;
+           }
+         }
+         return num;
+       });
+       var sum = number.reduce(function(prev,curr){return prev + curr;});
+       return sum % 10;
+     };
+
+     string = faker.helpers.regexpStyleStringParse(string); // replace [4-9] with a random number in range etc...
+     string = faker.helpers.replaceSymbolWithNumber(string, symbol); // replace ### with random numbers
+
+     var numberList = string.replace(/\D/g,"").split("").map(function(num){return parseInt(num);});
+     var checkNum = getCheckBit(numberList);
+     return string.replace("L",checkNum);
+   };
+
+   /** string repeat helper, alternative to String.prototype.repeat.... See PR #382
+   *
+   * @method faker.helpers.repeatString
+   * @param {string} string
+   * @param {number} num
+   */
+   self.repeatString = function(string, num) {
+     if(typeof num ==="undefined") {
+       num = 0;
+     }
+     var text = "";
+     for(var i = 0; i &lt; num; i++){
+       text += string.toString();
+     }
+     return text;
+   };
+
+   /**
+    * parse string patterns in a similar way to RegExp
+    *
+    * e.g. "#{3}test[1-5]" -> "###test4"
+    *
+    * @method faker.helpers.regexpStyleStringParse
+    * @param {string} string
+    */
+   self.regexpStyleStringParse = function(string){
+     string = string || "";
+     // Deal with range repeat `{min,max}`
+     var RANGE_REP_REG = /(.)\{(\d+)\,(\d+)\}/;
+     var REP_REG = /(.)\{(\d+)\}/;
+     var RANGE_REG = /\[(\d+)\-(\d+)\]/;
+     var min, max, tmp, repetitions;
+     var token = string.match(RANGE_REP_REG);
+     while(token !== null){
+       min = parseInt(token[2]);
+       max =  parseInt(token[3]);
+       // switch min and max
+       if(min>max) {
+         tmp = max;
+         max = min;
+         min = tmp;
+       }
+       repetitions = faker.random.number({min:min,max:max});
+       string = string.slice(0,token.index) + faker.helpers.repeatString(token[1], repetitions) + string.slice(token.index+token[0].length);
+       token = string.match(RANGE_REP_REG);
+     }
+     // Deal with repeat `{num}`
+     token = string.match(REP_REG);
+     while(token !== null){
+       repetitions = parseInt(token[2]);
+       string = string.slice(0,token.index)+ faker.helpers.repeatString(token[1], repetitions) + string.slice(token.index+token[0].length);
+       token = string.match(REP_REG);
+     }
+     // Deal with range `[min-max]` (only works with numbers for now)
+     //TODO: implement for letters e.g. [0-9a-zA-Z] etc.
+
+     token = string.match(RANGE_REG);
+     while(token !== null){
+       min = parseInt(token[1]); // This time we are not capturing the char before `[]`
+       max =  parseInt(token[2]);
+       // switch min and max
+       if(min>max) {
+         tmp = max;
+         max = min;
+         min = tmp;
+       }
+        string = string.slice(0,token.index) +
+          faker.random.number({min:min, max:max}).toString() +
+          string.slice(token.index+token[0].length);
+        token = string.match(RANGE_REG);
+     }
+     return string;
+   };
+
+  /**
+   * takes an array and randomizes it in place then returns it
+   * 
+   * uses the modern version of the Fisher–Yates algorithm
+   *
+   * @method faker.helpers.shuffle
+   * @param {array} o
+   */
+  self.shuffle = function (o) {
+      if (typeof o === 'undefined' || o.length === 0) {
+        return o || [];
+      }
+      o = o || ["a", "b", "c"];
+      for (var x, j, i = o.length - 1; i > 0; --i) {
+        j = faker.random.number(i);
+        x = o[i];
+        o[i] = o[j];
+        o[j] = x;
+      }
+      return o;
+  };
+
+  /**
+   * mustache
+   *
+   * @method faker.helpers.mustache
+   * @param {string} str
+   * @param {object} data
+   */
+  self.mustache = function (str, data) {
+    if (typeof str === 'undefined') {
+      return '';
+    }
+    for(var p in data) {
+      var re = new RegExp('{{' + p + '}}', 'g')
+      str = str.replace(re, data[p]);
+    }
+    return str;
+  };
+
+  /**
+   * createCard
+   *
+   * @method faker.helpers.createCard
+   */
+  self.createCard = function () {
+      return {
+          "name": faker.name.findName(),
+          "username": faker.internet.userName(),
+          "email": faker.internet.email(),
+          "address": {
+              "streetA": faker.address.streetName(),
+              "streetB": faker.address.streetAddress(),
+              "streetC": faker.address.streetAddress(true),
+              "streetD": faker.address.secondaryAddress(),
+              "city": faker.address.city(),
+              "state": faker.address.state(),
+              "country": faker.address.country(),
+              "zipcode": faker.address.zipCode(),
+              "geo": {
+                  "lat": faker.address.latitude(),
+                  "lng": faker.address.longitude()
+              }
+          },
+          "phone": faker.phone.phoneNumber(),
+          "website": faker.internet.domainName(),
+          "company": {
+              "name": faker.company.companyName(),
+              "catchPhrase": faker.company.catchPhrase(),
+              "bs": faker.company.bs()
+          },
+          "posts": [
+              {
+                  "words": faker.lorem.words(),
+                  "sentence": faker.lorem.sentence(),
+                  "sentences": faker.lorem.sentences(),
+                  "paragraph": faker.lorem.paragraph()
+              },
+              {
+                  "words": faker.lorem.words(),
+                  "sentence": faker.lorem.sentence(),
+                  "sentences": faker.lorem.sentences(),
+                  "paragraph": faker.lorem.paragraph()
+              },
+              {
+                  "words": faker.lorem.words(),
+                  "sentence": faker.lorem.sentence(),
+                  "sentences": faker.lorem.sentences(),
+                  "paragraph": faker.lorem.paragraph()
+              }
+          ],
+          "accountHistory": [faker.helpers.createTransaction(), faker.helpers.createTransaction(), faker.helpers.createTransaction()]
+      };
+  };
+
+  /**
+   * contextualCard
+   *
+   * @method faker.helpers.contextualCard
+   */
+  self.contextualCard = function () {
+    var name = faker.name.firstName(),
+        userName = faker.internet.userName(name);
+    return {
+        "name": name,
+        "username": userName,
+        "avatar": faker.internet.avatar(),
+        "email": faker.internet.email(userName),
+        "dob": faker.date.past(50, new Date("Sat Sep 20 1992 21:35:02 GMT+0200 (CEST)")),
+        "phone": faker.phone.phoneNumber(),
+        "address": {
+            "street": faker.address.streetName(true),
+            "suite": faker.address.secondaryAddress(),
+            "city": faker.address.city(),
+            "zipcode": faker.address.zipCode(),
+            "geo": {
+                "lat": faker.address.latitude(),
+                "lng": faker.address.longitude()
+            }
+        },
+        "website": faker.internet.domainName(),
+        "company": {
+            "name": faker.company.companyName(),
+            "catchPhrase": faker.company.catchPhrase(),
+            "bs": faker.company.bs()
+        }
+    };
+  };
+
+
+  /**
+   * userCard
+   *
+   * @method faker.helpers.userCard
+   */
+  self.userCard = function () {
+      return {
+          "name": faker.name.findName(),
+          "username": faker.internet.userName(),
+          "email": faker.internet.email(),
+          "address": {
+              "street": faker.address.streetName(true),
+              "suite": faker.address.secondaryAddress(),
+              "city": faker.address.city(),
+              "zipcode": faker.address.zipCode(),
+              "geo": {
+                  "lat": faker.address.latitude(),
+                  "lng": faker.address.longitude()
+              }
+          },
+          "phone": faker.phone.phoneNumber(),
+          "website": faker.internet.domainName(),
+          "company": {
+              "name": faker.company.companyName(),
+              "catchPhrase": faker.company.catchPhrase(),
+              "bs": faker.company.bs()
+          }
+      };
+  };
+
+  /**
+   * createTransaction
+   *
+   * @method faker.helpers.createTransaction
+   */
+  self.createTransaction = function(){
+    return {
+      "amount" : faker.finance.amount(),
+      "date" : new Date(2012, 1, 2),  //TODO: add a ranged date method
+      "business": faker.company.companyName(),
+      "name": [faker.finance.accountName(), faker.finance.mask()].join(' '),
+      "type" : self.randomize(faker.definitions.finance.transaction_type),
+      "account" : faker.finance.account()
+    };
+  };
+
+  return self;
+
+};
+
+
+/*
+String.prototype.capitalize = function () { //v1.0
+    return this.replace(/\w+/g, function (a) {
+        return a.charAt(0).toUpperCase() + a.substr(1).toLowerCase();
+    });
+};
+*/
+
+module['exports'] = Helpers;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a> on Fri Jan 07 2022 22:51:57 GMT-0500 (Eastern Standard Time) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

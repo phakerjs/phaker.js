@@ -9,7 +9,7 @@ const mustache = require('gulp-mustache');
 const rename = require('gulp-rename');
 const jsdoc = require('gulp-jsdoc3');
 
-const config = require('../../conf.json');
+const config = require('../../.jsdoc.json');
 
 module.exports = function jdsoc (cb) {
   src(['./README.md', './lib/*.js'], { read: false })
