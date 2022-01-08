@@ -37,10 +37,10 @@ module.exports = function readme (cb) {
     .pipe(mustache({
        'API': API,
        'LOCALES': LOCALES,
-       'startYear': 2010,
+       'startYear': 2022,
        'currentYear': new Date().getFullYear()
      }))
-    .pipe(rename("../Readme.md"))
+    .pipe(rename("../README.md"))
     .pipe(dest('build/'));
 
 };
