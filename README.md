@@ -1,6 +1,10 @@
-# phakerjs - generate massive amounts of fake data in the browser and node.js
+# faker.js - generate massive amounts of fake data in the browser and node.js
 
 A drop in replacement to faker.js say hello to **phakerjs**
+
+## Why phaker?
+
+On or about Jan 4th 2022, the original author of faker (Marak Squires) deleted the faker.js repo and published a v6.6.6 version that only contained a readme.
 
 ## Usage
 
@@ -188,6 +192,7 @@ A drop in replacement to faker.js say hello to **phakerjs**
 * name
   * firstName
   * lastName
+  * middleName
   * findName
   * jobTitle
   * gender
@@ -246,10 +251,12 @@ faker.js contains a super useful generator method `Faker.fake` for combining fak
 
 **Example:**
 
+
 ``` js
 console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
 // outputs: "Marks, Dean Sr."
 ```
+
 
 This will interpolate the format string with the value of methods `name.lastName()`, `name.firstName()`, and `name.suffix()`
 
@@ -344,18 +351,20 @@ console.log(firstRandom === secondRandom);
 
 ## Tests
 
-    npm install .
-    make test
+```shell
+npm install .
+make test
+```
 
 You can view a code coverage report generated in coverage/lcov-report/index.html.
 
 ## Building faker.js
 
-faker uses [gulp](http://gulpjs.com/) to automate it's build process. Each build operation is a separate task which can be run independently. 
+faker uses [gulp](http://gulpjs.com/) to automate its build process. Each build operation is a separate task which can be run independently.
 
 ### Browser Bundle
 
-```
+```shell
 npm run browser
 ```
 
@@ -363,13 +372,13 @@ npm run browser
 
 [JSDOC](https://jsdoc.app/) v3 HTML API documentation
 
-```
+```shell
 npm run jsdoc
 ```
 
 ### Building ReadMe
 
-The `ReadMe.md` file for `faker.js` is automatically generated and should not be modified directly. All updateds to `ReadMe.md` should be perfomed in `./build/src/docs.md` and then the build script should be run.
+The `ReadMe.md` file for `faker.js` is automatically generated and should not be modified directly. All updates to `ReadMe.md` should be performed in `./build/src/docs.md` and then the build script should be run.
 
 ```shell
 npm run readme
@@ -381,18 +390,16 @@ faker.js is a popular project used by many organizations and individuals in prod
 
 If you require the absolute latest version of `phaker.js` the `main` branch @ <http://github.com/phakerjs/phaker.js/> should always be up to date and working.
 
-## Maintainer
+## Maintainers
 
-### Kam Lasater
+* Kam Lasater (https://github.com/seekayel)
 
-phaker.js - Copyright (c) 2022 Kam Lasater
-phaker.js was adapted from faker.js to maintain continuity:
+## License
 
-faker.js - Copyright (c) 2020 Marak Squires
-faker.js was inspired by and has used data definitions from:
-
- * <https://github.com/stympy/faker/> - Copyright (c) 2007-2010 Benjamin Curtis
- * <http://search.cpan.org/~jasonk/Data-Faker-0.07/> - Copyright 2004-2005 by Jason Kohles
+* <https://github.com/marak/faker.js> - Copyright (c) 2022-2022 Kam Lasater
+* <https://github.com/marak/faker.js> - Copyright (c) 2010-2020 Marak Squires
+* <https://github.com/stympy/faker/> - Copyright (c) 2007-2010 Benjamin Curtis
+* <http://search.cpan.org/~jasonk/Data-Faker-0.07/> - Copyright 2004-2005 by Jason Kohles
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
