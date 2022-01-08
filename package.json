@@ -10,10 +10,21 @@
     "url": "http://github.com/phakerjs/phaker.js.git"
   },
   "keywords": [
-    "phaker",
-    "phaker.js",
+    "data",
+    "dummy",
+    "fake",
     "faker",
-    "faker.js"
+    "fakerjs",
+    "faker.js",
+    "fakr",
+    "generator",
+    "identity",
+    "mock",
+    "phaker",
+    "phakerjs",
+    "phaker.js",
+    "phakr",
+    "test"
   ],
   "scripts": {
     "browser": "./node_modules/.bin/gulp browser",
