@@ -1,0 +1,19 @@
+{
+
+  "opts": {
+      "destination": "./docs/",
+      "encoding": "utf8",
+      "private": true,
+      "recurse": true,
+      "template": "./node_modules/minami"
+  },
+
+  "plugins": [
+    "plugins/markdown"
+  ],
+
+  "source": {
+    "include": ["./lib", "./lib/image_providers"],
+    "exclude": ["./lib/locales"]
+  }
+}
