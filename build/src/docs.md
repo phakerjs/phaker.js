@@ -1,8 +1,10 @@
 # phaker.js - generate massive amounts of fake data in the browser and node.js
 
+A drop in replacement to faker.js say hello to **phaker.js**
+
 ![phaker.js logo](https://raw.githubusercontent.com/phakerjs/phaker.js/main/logo.png)
 
-A drop in replacement to faker.js say hello to **phaker.js**
+[![Coverage Status](https://coveralls.io/repos/github/phakerjs/phaker.js/badge.svg?branch=main)](https://coveralls.io/github/phakerjs/phaker.js?branch=main)
 
 ## Why phaker?
 
