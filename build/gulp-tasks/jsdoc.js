@@ -1,6 +1,6 @@
 /*
 
-   this task will generate the jsdoc based HTML documentation found in the /doc/ folder
+   this task will generate the jsdoc based HTML documentation found in the /docs folder
 
 */
 
