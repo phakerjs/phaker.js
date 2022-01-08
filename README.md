@@ -4,7 +4,10 @@ A drop in replacement to faker.js say hello to **phaker.js**
 
 ![phaker.js logo](https://raw.githubusercontent.com/phakerjs/phaker.js/main/logo.png)
 
+[![Build Status](https://img.shields.io/github/workflow/status/phakerjs/phaker.js/build-test/main)](https://github.com/phakerjs/phaker.js)
 [![Coverage Status](https://coveralls.io/repos/github/phakerjs/phaker.js/badge.svg?branch=main)](https://coveralls.io/github/phakerjs/phaker.js?branch=main)
+[![License](https://img.shields.io/npm/l/phaker.js)](https://www.npmjs.com/package/phaker.js)
+[![Version](https://img.shields.io/npm/v/phaker.js)](https://www.npmjs.com/package/phaker.js)
 
 ## Why phaker?
 
