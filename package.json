@@ -9,6 +9,12 @@
     "type": "git",
     "url": "http://github.com/phakerjs/phaker.js.git"
   },
+  "keywords": [
+    "phaker",
+    "phaker.js",
+    "faker",
+    "faker.js"
+  ],
   "scripts": {
     "browser": "./node_modules/.bin/gulp browser",
     "jsdoc": "./node_modules/.bin/gulp jsdoc",
