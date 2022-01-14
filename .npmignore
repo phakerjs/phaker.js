@@ -9,3 +9,14 @@ meteor/
 test/
 logo.png
 reports/
+.coveralls.yml
+.git*
+.jsdoc.json
+.jshintignore
+.jshintrc
+.nyc_output/
+docs/
+gulpfile.js
+dist/
+phaker.js-*.tgz
+CNAME
